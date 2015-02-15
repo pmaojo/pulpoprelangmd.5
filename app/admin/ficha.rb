@@ -1,4 +1,5 @@
 ActiveAdmin.register Ficha do
+  permit_params :peso_inicial, :altura, :idm, :peso_ideal, :peso_objetivo, :talla_inicial, :talla_objetivo, :ejercicio
 
 
   # See permitted parameters documentation:
